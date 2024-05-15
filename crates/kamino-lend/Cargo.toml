@@ -1,0 +1,8 @@
+[package]
+name    = "kamino-lend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anchor-lang = "0.30.0"
+anchor-gen  = { version = "0.3.1" }

@@ -1,0 +1,19 @@
+[toolchain]
+solana_version = "1.18.12"
+
+[features]
+resolution = true
+skip-lint  = false
+
+[programs.localnet]
+kamino_playground = "7PUjTUEsbk6d84ABAp84v91ZPggk24rantFnNxdEq8V"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet  = "~/.config/solana/id.json"
+
+[scripts]
+test = "cargo test"
